@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Nabla');
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+.bg-image {
+    background-image: url(../Ressources/Images/background_combined.png);
+    background-size: cover;
+    height: 100vh;
+    overflow: auto;
+}
+
+.text-color {
+    color:#FFF6BD;
+    font-family: 'Berlin Sans FB', serif;
+}
+
+.buttonShadow {
+    box-shadow: 1px 2px 5px black;
+}
+/*********************** NAVBAR ***********************/
+.navbar-brand {
+    position: absolute;
+    color: #FFF6BD !important;
+    font-family: 'Nabla', serif;
+    text-align: center;
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+.navbar-toggler{
+    border-Color: #FFF6BD !important;
+    background-Color: #FFF6BD !important;
+}
+
+.navbar-collapse{
+    z-Index:99;
+}
+
+/*********************** GAMES ***********************/
+
+.game-title{
+    font-family: 'Nabla', serif;
+}
+
+.buttonPlay{
+    position: relative;
+    z-index: 1;
+    width: 13vw;
+    height: 10vh;
+}
+
+.buttonBetReset {
+    position: relative;
+    z-index: 1;
+}
+
+/*********************** Salon ***********************/
+
+.cardSelectRoom{
+    width: 18rem;
+}
+
+.salonPokerIcon{
+    position: relative;
+    top: 10px;
+    left: 15px;
+    z-index: 2;
+    cursor: none;
+}
+
+.salonBlackjackIcon{
+    position: relative;
+    top: 200px;
+    right: 100px;
+    height: 10px !important;
+}
+
+/*********************** Waiting Room ***********************/
+
+.buttonWaiting {
+    position: relative;
+    left: 500px;
+    width: 5vw;
+    height: 7vh;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.containerPlayer {
+    width: 40%;
+    height: 60%;
+    min-width: 600px;
+    margin: 0 auto; /* to center */
+    background-color: #212529;
+    border-radius: 20px;
+    display: flex;
+}
+
+.player {
+    margin: 10px;
+    color: #FFF6BD;
+}
+
+.buttonArea {
+    position: absolute;
+    top: 650px;
+}
+
+.sideBarContainer {
+    color: #FFF6BD;
+    font-family: 'Berlin Sans FB', serif;
+    border-radius: 30px;
+    width: 400px;
+    height: 700px;
+    position: absolute;
+    left: calc(100% - 400px);
+    top: 100px;
+}
+
+.inputPseudo{
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    width: 300px;
+    height: 50px;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "server and database",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "mocha test.js --timeout 5000 --exit"
+  },
+  "author": "s9_sujet7",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "ioredis": "^5.2.4",
+    "mocha": "^10.1.0",
+    "mongoose": "^6.6.5",
+    "nodemon": "^2.0.20",
+    "socket.io": "^4.5.3",
+    "socket.io-client": "^4.5.3"
+  }
+}

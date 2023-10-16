@@ -1,0 +1,125 @@
+/*********************** Multi Game Room ***********************/
+
+/*********************** Opponent 1 ***********************/
+.opponent1{
+    position: relative;
+    top: -5.5em;
+    right: 55%;
+}
+.opponentCard1{
+    transform: rotate(90deg);
+    position: absolute;
+    top: -15px;
+}
+.opponentCard1.card-length-3{
+    top: -35px;
+}
+.opponentCard1.card-length-4{
+    top: -55px;
+}
+.opponentCard1.card-length-5{
+    top: -60px;
+}
+.opponentInfo1{
+    position: absolute;
+    bottom: 200px;
+    left: 30%;
+}
+.opponentBet1{
+    position: absolute;
+    bottom: 150px;
+    left: 30%;
+}
+
+/*********************** Opponent 2 ***********************/
+.opponent2{
+    position: relative;
+    top: -1.5em;
+    left: 28%;
+}
+.opponentCard2{
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 110px;
+}
+.opponentCard2.card-length-3{
+    top: 150px;
+}
+.opponentCard2.card-length-4{
+    top: 180px;
+}
+.opponentCard2.card-length-5{
+    top: 205px;
+}
+.opponentInfo2{
+    position: absolute;
+    bottom: 270px;
+    left: 50%;
+}
+.opponentBet2{
+    position: absolute;
+    bottom: 220px;
+    left: 50%;
+}
+
+/*********************** Opponent 3 ***********************/
+.opponent3{
+    position: relative;
+    top: 0px;
+    left: 28%;
+}
+.opponentCard3{
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 470px;
+}
+.opponentCard3.card-length-3{
+    top: 510px;
+}
+.opponentCard3.card-length-4{
+    top: 510px;
+    right: 420px;
+}
+.opponentCard3.card-length-5{
+    top: 520px;
+    right: 410px;
+}
+.opponentInfo3{
+    position: absolute;
+    top: 50px;
+    left: 50%;
+}
+.opponentBet3{
+    position: absolute;
+    top: 100px;
+    left: 50%;
+}
+
+/*********************** Opponent 4 ***********************/
+
+.opponent4{
+    position: relative;
+    top: 10px;
+    right: 58%;
+}
+.opponentCard4{
+    transform: rotate(90deg);
+    position: absolute;
+    top: 250px;
+}
+.opponentCard4.card-length-3{
+}
+.opponentCard4.card-length-4{
+}
+.opponentCard4.card-length-5{
+}
+.opponentInfo4{
+    position: absolute;
+    top: 30px;
+    left: 33%;
+}
+.opponentBet4{
+    position: absolute;
+    top: 80px;
+    left: 33%;
+}

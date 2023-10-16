@@ -1,0 +1,30 @@
+.box {
+    width: 70%;
+    height: 50%;
+    min-width: 700px;
+    /* max-width: 400px; */
+    margin: 0 auto; /* to center */
+    background-color: #212529;
+    position: relative;
+    top: 35vh;
+    border-radius: 20px;
+    display: flex;
+}
+
+.left {
+    flex: 1;
+    align-self: center;
+
+}
+.right {
+    flex: 1;
+    align-self: center;
+}
+
+.inputAmount {
+    border-radius: 50px;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    width: 150px;
+}

@@ -1,0 +1,49 @@
+.poker {
+    position: relative;
+    bottom: 40px;
+}
+
+.poker.betAmount{
+    position: fixed;
+    bottom: 13em;
+    left: 40%;
+}
+
+.poker.playerHand {
+    position: fixed;
+    left: 3%;
+    bottom: -3em;
+}
+
+.board {
+    position: fixed;
+    top: 30vh;
+    left: 38%;
+    z-index: 2;
+}
+
+.buttonOptionsPoker {
+    position: absolute;
+    top: 650px;
+    right: 240px;
+}
+
+.buttonWait{
+    position: fixed;
+    right: 500px;
+}
+
+.inputRaiseContainer{
+    position: absolute;
+    top: -10px;
+    left: -50px;
+}
+
+.inputRaise{
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    width: 300px;
+    height: 52px;
+}

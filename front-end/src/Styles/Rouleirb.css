@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Nabla');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@400;500&display=swap');
+/********************* CYLINDER *********************/
+
+.wheelComponent{
+    position: relative;
+    top: 30px;
+    left: -150px !important;
+}
+
+.history{
+    position: relative;
+    z-index: 2;
+    bottom: 550px;
+    left: 650px;
+}
+
+.historyTitle{
+    position: relative;
+    right: 540px;
+}
+
+.historyNumbers{
+    height: 60px;
+    width: 800px;
+    border: 2px solid white;
+    background-color: rgba(103, 43, 1, 0.48);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/********************* PLATEAU *********************/
+
+.plateauContainer {
+    position: relative;
+    max-width: 650px !important;
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    left: 480px !important;
+    bottom: 550px;
+}
+
+.caseNumberContainer {
+    padding: 0 !important;
+}
+
+.caseNumber {
+    cursor: pointer;
+    height: 50px;
+    width: 48px;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.case0{
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    top:152px;
+    left: -73px;
+    height: 50px;
+    width: 150px !important;
+    border: 2px solid #FFF5BD;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(90deg);
+}
+
+
+.caseNumberOdd {
+    background-color: rgb(155, 0, 0);
+    color: black;
+}
+
+.caseNumberEven {
+    color: rgb(168, 163, 163);
+    background-color: black;
+}
+
+.spin-button{
+    position: relative;
+    top: 50px;
+    right: 430px;
+    width: 200px;
+    height: 50px;
+    background-color: #fff6bd !important;
+    border-color: #fff6bd !important;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    box-shadow: 3px 5px 5px black;
+}
+
+.rouletteOptions {
+    cursor: pointer;
+    border: 2px solid;
+    background-color: #212529;
+    color: #FFF5BD;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-roulette{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.topRow{
+    padding-left: 37px !important;
+    z-index: 1;
+}
+
+.rouletteOptionsTop {
+    max-width: 200px !important;
+}
+
+.bottomRow{
+    padding-left: 38px !important;
+    z-index: 1;
+}
+
+.mainSection ul{
+    margin-bottom: 0;
+    padding-left: 0;
+    display: inline-grid;
+    grid-auto-flow: column;
+    list-style: none;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.rouletteOptionsBottom {
+    max-width: 100px !important;
+    
+}
+
+.rouletteOptionsColorRed {
+    background-color: rgb(155, 0, 0);
+}
+
+.rouletteOptionsColorBlack {
+    background-color: black;
+}
+
+
+/********************* CHIP *********************/
+
+.chipContainerRoulette {
+    position: relative;
+    bottom: 450px;
+    left: 300px;
+}
+
+.MuiTooltip-tooltip {
+    background: black;
+    width: 50px;
+    height: 40px;
+    text-align : center;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 15px;
+}
+
+.infoBet{
+    position: relative;
+    bottom: 400px;
+    left: 130px;
+    color: #FFF5BD;
+}
+
+.buttonBet{
+    position: relative;
+    z-index: 1;
+    bottom: 350px;
+    left: 130px;
+    box-shadow: 3px 5px 5px black;
+}
+
+.buttonResetBet{
+    position: relative;
+    z-index: 1;
+    bottom: 350px;
+    left: 150px;
+    box-shadow: 3px 5px 5px black;
+}
+
+.betAmountRoulette{
+    position: relative;
+    z-index: 1;
+    bottom: 28vh;
+    left: 250px;
+    color: white;
+}

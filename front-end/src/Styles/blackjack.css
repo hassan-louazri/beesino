@@ -1,0 +1,82 @@
+.dealerHand{
+    position: fixed;
+    left: 43%;
+}
+
+.handValue{
+    position: fixed;
+    float: right;
+    right: 60vw;
+    top: 10vh;
+    z-index: 1;
+}
+
+.chipContainer{
+    position: absolute;
+    bottom: 18vh;
+    left: 50vw;
+}
+
+.MuiTooltip-tooltip{
+    background-color: black !important;
+    width: 50px;
+    height: 40px;
+    text-align : center;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 15px !important;
+}
+
+.buttonOptions{
+    position: fixed;
+    bottom: 4em;
+    right: 350px;
+}
+
+.buttonReset {
+    position: fixed;
+    top: 58%;
+    right: 46%;
+}
+
+.betAmount {
+    position: fixed;
+    z-index: 1;
+    bottom: 4em;
+    left: 40em;
+    color: white;
+}
+
+.betAmountMulti{
+    position: relative;
+    z-index: 1;
+    top: 30vh;
+    left: 150px;
+    color: white;
+}
+
+.winner {
+    position: fixed;
+    top: 50%;
+    right: 46%;
+}
+
+/*********************** Bet in Waiting Room ***********************/
+
+.betMulti {
+    position: relative;
+    bottom: 300px;
+    right: 650px;
+}
+
+.chipContainerMulti {
+    position: absolute;
+    top: 50vh;
+    left: 35vw;
+}
+
+.endWait{
+    position: fixed;
+    top: 47vh;
+    left: 40vw;
+}

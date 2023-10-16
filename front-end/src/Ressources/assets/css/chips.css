@@ -1,0 +1,14 @@
+.chip {
+  display: block;
+  position: absolute;
+}
+
+.chip:hover{
+  cursor: pointer;
+}
+
+.chip img {
+  width: 64px;
+}
+
+/* stack stored with ul.hands */

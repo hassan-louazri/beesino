@@ -1,0 +1,16 @@
+.choiceGame{
+    height: 70vh;
+}
+
+.card{
+    border-radius: 19% !important;
+}
+
+.gameSelect{
+    width: 18rem;
+    font-family: 'Nabla', serif;
+}
+
+.gameSelect:hover{
+    box-shadow: 0 0 100px white;     
+}
