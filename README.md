@@ -1,5 +1,6 @@
 # Casino Project
 
+Merci de noter que le projet complet est privé et que cette clone est read-only.
 ## NGROK
 cmd pour lancer: `ngrok tcp 3001`
 
